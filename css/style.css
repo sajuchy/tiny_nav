@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'ptsans-bold';
+    src: url(../font/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'ptsans-regular';
+    src: url(../font/PTSans-Regular.ttf);
+}
+/* comon start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'ptsans-regular';
+    font-weight: 400;
+    color: #010101;
+}
+/* common end */
+
+/* header start */
+header{
+    background: #fcdb00;
+    padding: 20px 0;
+}
+.c_nav{
+
+}
+
+.logo{
+
+}
+
+.menu ul li a{
+    
+    font-family: 'ptsans-bold';
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important ;
+    padding: 0 40px !important;
+    transition: all .3s;
+
+
+}
+.menu ul li a:hover{
+    color: #fff !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+
+
+/* header end */
+/* slider :start */
+.slider{
+    background: #fcdb00;
+    padding-bottom: 100px;
+}
+ .s_text{}
+ .s_text h1{
+     font-family: 'ptsans-bold';
+     font-size: 32px;
+     font-weight: 700;
+     /* color: #010101; */
+ }
+ .s_text h2{
+     font-family: 'ptsans-regular';
+     font-size: 20px;
+     font-weight: 400;
+     /* color: #313841; */
+ }
+ .s_text p{
+    
+     
+     color: #555555;
+ }
+ .s_icon ul li i{
+    font-size: 42px;
+ }
+.s_img{}
+.s_img img{}
+/* indicator */
+.carousel-indicators{}
+/* slider :start */
